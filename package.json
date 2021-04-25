@@ -1,0 +1,26 @@
+{
+  "name": "node-typescript-starter",
+  "version": "1.0.0",
+  "description": "A basic Node-Typescript starter project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.41",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "author": {
+    "name": "Sanket Mundada",
+    "email": "mundadasanket2000@gmail.com",
+    "url": "https://github.com/Sanketmundada"
+  }
+}
